@@ -122,12 +122,16 @@ div.tab button.active {
 }
 
 .navbar-inverse {
-    background-color: #FC005C;
-    border-color: #FC005C;
+    background-color: #f2c811;
+    border-color: #f2c811;
 }
 
 .navbar-inverse .navbar-nav > li > a {
     color: #000000;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    background-color:red;
 }
 
 .navbar-inverse .navbar-brand {
